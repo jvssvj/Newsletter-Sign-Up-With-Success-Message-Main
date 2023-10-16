@@ -1,0 +1,63 @@
+@media(max-width:868px) {
+    body {
+        font-size: .9rem;
+    }
+
+    .text_card h1 {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:815px) {
+    body {
+        margin: 0;
+        align-items: flex-start;
+    }
+
+    .card {
+        flex-direction: column-reverse;
+        align-items: unset;
+        width: 100%;
+        padding: 0;
+        border-radius: 0;
+        gap: 1em;
+    }
+
+    .text_card {
+        padding: 1em;
+    }
+
+    picture {
+        width: 100%;
+    }
+
+    .illustration_desktop {
+        width: 100%;
+    }
+
+    #btn-email{
+        margin-bottom: 2em;
+    }
+
+    .attribution {
+        margin-top: 80em;
+    }
+
+    .thanks_card {
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        max-width: unset;
+        border-radius: unset;
+        padding: 1em;
+    }
+
+    .thanks_card_text {
+        max-width: 500px;
+    }
+
+    .thanks_card_text h2 {
+        font-size: 2rem;
+    }
+}
+
